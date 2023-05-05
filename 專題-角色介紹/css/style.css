@@ -1,0 +1,92 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+.navbar-brand img {
+	height: 40px;
+    width: 135.2px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header li{
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.banner {
+	margin-top: 96px;
+}
+
+.wordview-text{
+    padding: 0;
+    background-image: url(../img/role2.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.wordview-text span{
+    font-size: 36px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 115px;
+    display: inline-block;
+    letter-spacing: 1rem;
+    
+
+}
+
+.wordview-text p{
+    font-size: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-top: 55px;
+    margin-bottom: 150px;
+    display: inline-block;
+   
+}
+
+footer{
+    background-color: #0A0E2A;
+    display: flex;
+    align-items: center;
+    height: 220px;
+    
+}
+
+.footer-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-box p{
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+.footericon{
+    width: 157px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}

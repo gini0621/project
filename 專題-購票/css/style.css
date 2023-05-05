@@ -1,0 +1,223 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+.navbar-brand img {
+	height: 40px;
+    width: 135.2px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header li{
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.Ticketbanner{
+    margin-top: 96px;
+    
+}
+
+.Ticket{
+    /* background-image: url('/img/BG1.png'); */
+    background-size: cover;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Ticket span{
+    font-size: 64px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1rem;
+    margin-bottom: 325px;
+    margin-top: 325px;
+    
+
+}
+
+.ban1photo{
+    padding: 0;
+    margin-top: 82px;
+    margin-bottom: 82px;
+}
+/*font-family: 'Noto Sans TC', sans-serif;*/
+.ban1word{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 70px;
+    
+}
+
+.ban1word span{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.ban1word p{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.ban2photo{
+    display: flex;
+    justify-content: center;
+    margin-top: 91px;
+    margin-bottom: 91px;
+}
+
+.ban2word{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    
+}
+
+.ban2word span{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.ban2word p{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    color: white;
+}
+
+.buy{
+    cursor: pointer;
+}
+
+
+
+.buy p{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 15px;
+    background-color: #400C48;
+    width: 180px;
+    height: 50px;
+    color: white;
+    padding-top: 7px;
+    padding-left: 19px;
+    margin: 40px 0px 62px 690px;
+}
+
+.buy p:hover{
+    background-color: #200533;
+}
+.ban3title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.ban3title span{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 20px;
+    color: white;
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.date p {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+
+.time p {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.room{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.room p {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+
+footer{
+    background-color: #0A0E2A;
+    display: flex;
+    align-items: center;
+    height: 220px;
+    
+}
+
+.footer-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-box p{
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+.footericon{
+    width: 157px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
